@@ -11,9 +11,14 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JagoBikinWeb | Jasa Pembuatan Website Profesional",
-  description:
-    "Membantu UMKM & Bisnis Go Digital dengan website modern, cepat, dan SEO-friendly.",
+  // Judul yang akan tampil di tab browser & hasil pencarian Google
+  title: "JagoBikinWeb | Jasa Pembuatan Website Profesional di Pekanbaru",
+  
+  // Deskripsi yang akan tampil di bawah judul di Google
+  description: "Jasa pembuatan website profesional dan murah di Pekanbaru. Kami membantu UMKM dan bisnis Anda go digital dengan desain website modern, cepat, dan SEO-friendly.",
+  
+  // Tambahkan keywords untuk membantu Google memahami isi website lo
+  keywords: "jasa pembuatan website, jasa website pekanbaru, website murah, jasa desain web, website umkm",
 };
 
 export default function RootLayout({

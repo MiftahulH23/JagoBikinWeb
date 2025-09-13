@@ -6,10 +6,13 @@ import { Spotlight } from "./ui/spotlight";
 import { Button } from "./ui/button";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
-const mainHeadline = "Website Keren, \n Bisnis Jadi Beken.";
+const mainHeadline = "Jasa Pembuatan Website Profesional";
 const subHeadline =
-  "Kami bantu wujudkan website impian untuk bisnis Anda. Modern, cepat, dan pastinya, menjual. Siap untuk go digital?";
+  "Kami bantu wujudkan website keren untuk bisnis Anda di Pekanbaru. Modern, cepat, dan pastinya, bikin bisnis jadi beken!";
+const whatsappLink =
+  "https://wa.me/6282252209655?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website%20Anda.";
 
 export function Hero() {
   const { theme } = useTheme();
@@ -49,7 +52,9 @@ export function Hero() {
           className="flex justify-center mt-8"
         >
           <Button className="rounded-full text-lg px-8 py-6 cursor-pointer">
-            Mulai Proyek Anda
+            <Link href={whatsappLink} target="_blank">
+              Mulai Proyek Anda
+            </Link>
           </Button>
         </motion.div>
       </div>

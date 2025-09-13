@@ -25,6 +25,8 @@ export function Portfolio() {
                     </span>
                   </div>
                   <div
+                    role="img"
+                    aria-label={item.title}
                     className="flex flex-1 w-full rounded-lg mt-4 bg-muted"
                     style={{
                       backgroundImage: `url(${item.imageUrl})`,

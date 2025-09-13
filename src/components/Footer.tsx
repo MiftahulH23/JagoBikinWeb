@@ -71,10 +71,10 @@ export function Footer() {
               WhatsApp
             </a>
             <a
-              href="mailto:halo@jagobikinweb.com"
+              href="mailto:jagobikinwebofficial@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              halo@jagobikinweb.com
+              jagobikinwebofficial@gmail.com
             </a>
           </div>
         </div>
