@@ -50,7 +50,7 @@ export const portfolio = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     imageUrl: "/projects/company.png", // Ganti dengan path gambar Anda nanti
     link: "#",
-  }
+  },
 ];
 
 export const workflowSteps = [
@@ -78,4 +78,23 @@ export const workflowSteps = [
     description:
       "Website siap diluncurkan! Saya akan bantu proses deployment dan memberikan support awal untuk memastikan semuanya berjalan lancar.",
   },
+];
+export const templates = [
+  {
+    id: 1,
+    title: "Template Company Profile 'Eleganza'",
+    description:
+      "Desain modern dan profesional untuk menampilkan citra perusahaan Anda. Lengkap dengan section hero, tentang kami, layanan, dan kontak.",
+    // Gambar dari Unsplash, lo bisa ganti nanti
+    imageUrl:
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop",
+    link: "https://eleganza-template.vercel.app", // Nanti kita ganti dengan link ke halaman demonya
+  },
+  // {
+  //   id: 2,
+  //   title: "Template Toko Online 'Kopi Senja'",
+  //   description: "Template yang dirancang khusus untuk bisnis F&B. Tampilkan menu, galeri, dan terima pesanan dengan mudah.",
+  //   imageUrl: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8MHwwfHx8MA%3D%3D",
+  //   link: "#",
+  // },
 ];

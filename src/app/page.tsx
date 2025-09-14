@@ -3,7 +3,8 @@ import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Portfolio } from "@/components/Portfolio";
 import { Services } from "@/components/Services";
-import { Workflow } from "@/components/Workflow"; // <-- 1. Impor Workflow
+import { Workflow } from "@/components/Workflow";
+import { Templates } from "@/components/Templates"; // <-- 1. Impor Templates
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
+      <Workflow />
+      <Templates /> {/* <-- 2. Panggil komponennya di sini */}
       <Portfolio />
-      <Workflow /> 
       <Footer />
     </main>
   );
