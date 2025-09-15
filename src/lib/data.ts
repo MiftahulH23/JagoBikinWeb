@@ -90,11 +90,11 @@ export const templates = [
       "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop",
     link: "https://eleganza-template.vercel.app", // Nanti kita ganti dengan link ke halaman demonya
   },
-  // {
-  //   id: 2,
-  //   title: "Template Toko Online 'Kopi Senja'",
-  //   description: "Template yang dirancang khusus untuk bisnis F&B. Tampilkan menu, galeri, dan terima pesanan dengan mudah.",
-  //   imageUrl: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8MHwwfHx8MA%3D%3D",
-  //   link: "#",
-  // },
+  {
+    id: 2,
+    title: "Template Coffee Shop 'Kopi Senja'",
+    description: "Template yang dirancang khusus untuk bisnis F&B. Tampilkan menu, galeri, dengan desain yang modern.",
+    imageUrl: "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcHxlbnwwfDB8MHx8fDA%3D",
+    link: "https://coffee-shop-template-jbw.vercel.app/",
+  },
 ];
