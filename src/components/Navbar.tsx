@@ -18,33 +18,37 @@ export function Navbar() {
       transition={{ duration: 0.5 }}
       className="sticky top-4 z-50 flex w-full items-center justify-between max-w-4xl mx-auto px-4 py-2 bg-background/80 backdrop-blur-sm border rounded-full"
     >
-      <div className="text-xl font-bold text-foreground">JagoBikinWeb</div>
-
-      <div className="hidden md:flex items-center gap-4">
+      <div className="hidden md:flex items-center gap-4 w-full justify-between">
+        <div className="text-xl font-bold text-foreground">JagoBikinWeb</div>
+        <div className="flex items-center gap-6">
+          <a
+            href="#services"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+          >
+            Layanan
+          </a>
+          <a
+            href="#portfolio"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+          >
+            Portofolio
+          </a>
+          {/* 3. Bungkus Button dengan Link */}
+          <Button size="sm" className="rounded-full cursor-pointer" asChild>
+            <Link href={whatsappLink} target="_blank">
+              Hubungi Kami
+            </Link>
+          </Button>
+        </div>
         <ThemeToggle />
-        <a
-          href="#services"
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-        >
-          Layanan
-        </a>
-        <a
-          href="#portfolio"
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-        >
-          Portofolio
-        </a>
-        {/* 3. Bungkus Button dengan Link */}
-        <Button size="sm" className="rounded-full cursor-pointer" asChild>
-          <Link href={whatsappLink} target="_blank">
-            Hubungi Kami
-          </Link>
-        </Button>
       </div>
 
-      <div className="md:hidden flex items-center gap-2">
-        <ThemeToggle />
-        <MobileNav />
+      <div className="md:hidden flex items-center gap-2 w-full justify-between">
+        <div className="text-xl font-bold text-foreground">JagoBikinWeb</div>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <MobileNav />
+        </div>
       </div>
     </motion.nav>
   );
